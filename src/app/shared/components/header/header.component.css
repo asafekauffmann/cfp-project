@@ -2,12 +2,24 @@
   flex: 1 1 auto;
 }
 
-.example-icon {
-  background-color: transparent;
+.example-icon-clean {
   border: none;
+  background-color: transparent;
   color: white;
 }
 
-.logoSize {
+.example-logo {
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.logo-size {
   height: 35px;
+}
+
+#color-hover:hover {
+  color: #e63946;
+  transition: ease-in-out;
+  transition-delay: 0.35s;
 }

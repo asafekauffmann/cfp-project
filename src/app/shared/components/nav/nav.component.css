@@ -1,20 +1,10 @@
-.example-container-container {
-  width: 100%;
-  height: 91.1%;
-}
-
-.example-container-nav {
-  width: 200px;
-  height: 100%;
-  background-color: #3c4787;/* 	#F3F8FF; */
+.navigation {
+  position: relative;
+  width: 225px;
+  height: 100vh;
+  background-color: #3c4787;
   color: white;
   margin: 0px;
+  box-sizing: border-box;
+  padding: 15px;
 }
-
-/* .example-container-main {
-  width: 100%;
-  height: 100%;
-  background-color: red;
-  box-sizing: border-box
-}
- */
