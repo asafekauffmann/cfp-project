@@ -7,4 +7,9 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   box-sizing: border-box;
+  background-color: #FBF7F4;
+}
+
+.newBackground {
+  background-color: #023047;
 }

@@ -1,4 +1,6 @@
-<mat-drawer-container class="example-container">
-  <mat-drawer mode="side" opened class="example-container-nav">Drawer content</mat-drawer>
-  <mat-drawer-content class="example-container-main">Main content</mat-drawer-content>
-</mat-drawer-container>
+<mat-sidenav-container class="example-container-container">
+  <mat-sidenav mode="side" opened class="example-container-nav">Drawer content</mat-sidenav>
+  <mat-sidenav-content>
+    <ng-content select=".mainComponent"></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>
