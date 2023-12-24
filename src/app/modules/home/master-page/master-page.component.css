@@ -1,0 +1,21 @@
+/* nav */
+#p-nav {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.circle-login {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+
+/* main */
+#gap-button {
+  margin-left: 15px;
+}
+
+.new {
+  background-color:#29B69D;
+}

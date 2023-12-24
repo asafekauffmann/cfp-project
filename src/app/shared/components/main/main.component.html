@@ -1,14 +1,17 @@
 <div class="main-container">
 
-
   <div class="main-content">
-    <h1>Welcome to Project Front-end</h1>
-    <h2>Dashboard CFP-PROJECT</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Donec venenatis suscipit porta. Curabitur volutpat</p>
-    <p>Sed rhoncus bibendum enim eget urabitur vestibulum feugiat</p>
-    <img src="../../../../assets/image/Praia.png" id="image-size" alt="photo beach"/>
+    <ng-content select=".content"></ng-content>
   </div>
+
+  <div class="main-footer">
+    <ng-content select=".footer"></ng-content>
+  </div>
+
+  <div class="background-image">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2e0f3" fill-opacity="0.45" d="M0,128L80,106.7C160,85,320,43,480,42.7C640,43,800,85,960,90.7C1120,96,1280,64,1360,48L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+  </div>
+</div>
 
 <!--   <button mat-flat-button>Basic</button>
   <button mat-flat-button color="primary">Primary</button>
@@ -33,20 +36,5 @@
           <mat-icon>home</mat-icon>
         </button>
       </div> -->
-
-  <div class="main-footer">
-    <button mat-fab extended id="gap-button">
-      <mat-icon>home</mat-icon>Home
-    </button>
-
-    <button mat-fab extended color="primary" id="gap-button">
-      <mat-icon>add</mat-icon>Create
-    </button>
-  </div>
-
-  <div class="background-image">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2e0f3" fill-opacity="0.45" d="M0,128L80,106.7C160,85,320,43,480,42.7C640,43,800,85,960,90.7C1120,96,1280,64,1360,48L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-  </div>
-</div>
 
 

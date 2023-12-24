@@ -37,7 +37,13 @@ import {MatButtonModule} from '@angular/material/button';
     NavComponent,
     MainComponent,
     LogoComponent,
-    TemplateMasterComponent
+    TemplateMasterComponent,
+    MatSlideToggleModule,
+    MatToolbarModule,
+    MatIconModule,
+    MatTabsModule,
+    MatSidenavModule,
+    MatButtonModule,
 
    ],
    schemas: [ CUSTOM_ELEMENTS_SCHEMA ]

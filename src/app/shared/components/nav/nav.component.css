@@ -12,14 +12,3 @@
   align-items: center;
 }
 
-p {
-  color: white;
-  padding-bottom: 10px;
-}
-
-.circle-login {
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
-  background-color: aliceblue;
-}
