@@ -3,26 +3,19 @@
   <div class="nav-template">
     <p id="p-nav">Navigation</p>
     <div class="circle-login"></div>
-
-    <nav>
-      <ul>
-        <li routerLink="/login">login</li>
-        <li routerLink="/readme">readme</li>
-      </ul>
-    </nav>
   </div>
 
   <div class="main-template">
-    <app-home></app-home>
+    <app-readme></app-readme>
   </div>
 
   <div class="main-footer">
-    <button mat-mini-fab class="new" id="gap-button" routerLink="/readme">
+    <button mat-mini-fab class="new" id="gap-button" >
       <mat-icon><span class="material-symbols-outlined">
         settings
         </span></mat-icon>
     </button>
-    <button mat-fab extended color="primary" id="gap-button" >
+    <button mat-fab extended color="primary" id="gap-button" routerLink="/home">
       <mat-icon>add</mat-icon>Create
     </button>
   </div>
