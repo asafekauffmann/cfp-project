@@ -1,5 +1,9 @@
 <div class="container-size">
-  <app-header></app-header>
+  <app-header>
+    <div class="header-icons">
+      <ng-content select=".header-navigation"></ng-content>
+    </div>
+  </app-header>
 
   <div class="container-flex">
     <app-nav>

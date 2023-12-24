@@ -1,1 +1,35 @@
-<p>master-page works!</p>
+<app-template-master>
+
+  <div class="header-navigation">
+    <button mat-icon-button class="example-icon-clean" aria-label="Icon" routerLink="/home">
+      <mat-icon>home</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon-clean" aria-label="Icon">
+      <mat-icon>share</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon-clean" aria-label="Icon" routerLink="/" >
+      <mat-icon>logout</mat-icon>
+    </button>
+  </div>
+
+  <div class="nav-template">
+    <p id="p-nav">Navigation</p>
+    <div class="circle-login"></div>
+  </div>
+
+  <div class="main-template">
+    <app-products></app-products>
+  </div>
+
+  <div class="main-footer">
+    <button mat-mini-fab class="new" id="gap-button" routerLink="/readme">
+      <mat-icon><span class="material-symbols-outlined">
+        settings
+        </span></mat-icon>
+    </button>
+    <button mat-fab extended color="primary" id="gap-button" >
+      <mat-icon>add</mat-icon>Create
+    </button>
+  </div>
+
+</app-template-master>
