@@ -5,22 +5,12 @@
   background-color:	#F3F8FF;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 46px 0px;
-}
-
 .main-footer {
   position: fixed;
   bottom: 35px;
   right: 35px;
   z-index: 10;
 }
-
-
 
 .background-image {
   position: fixed;
