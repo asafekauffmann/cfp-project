@@ -11,18 +11,18 @@
         <mat-card-content>
           <div class="login">
             <div>
-              <img class="logo-size" src="../../../assets/logo/log01.png" alt="logo"/>
+              <img class="logo-size" [src]="urlImageIcon" alt="logo"/>
             </div>
 
             <form class="example-form">
               <mat-form-field class="example-full-width">
                 <mat-label>Name User</mat-label>
-                <input matInput placeholder="Ex. Pizza" value="Sushi">
+                <input matInput placeholder="adm or user" type="text">
               </mat-form-field>
 
               <mat-form-field class="example-full-width">
                 <mat-label>Password</mat-label>
-                <input matInput placeholder="Ex. Pizza">
+                <input matInput type="password">
               </mat-form-field>
             </form>
 
@@ -39,18 +39,13 @@
         </mat-card-actions>
       </mat-card>
 
-
     </div>
   </mat-drawer>
 
 
-
-
-
-
   <mat-drawer-content class="example-content">
     <div class="welcome-login">
-      <img class="image-size" src="../../../assets/image/Pipa.png" alt="image"/>
+      <img class="image-size" [src]="urlImage" alt="image"/>
       <h1 id="color-get">Get In Touch</h1>
     </div>
   </mat-drawer-content>

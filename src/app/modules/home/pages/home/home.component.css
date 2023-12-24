@@ -1,3 +1,10 @@
+.title {
+  margin-bottom: 25px;
+}
+
+.subTitle {
+  margin: 25px 0px;
+}
 #image-size {
   height: 300px;
   width: 300px;
