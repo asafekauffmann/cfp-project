@@ -17,9 +17,3 @@
 .logo-size {
   height: 35px;
 }
-
-#color-hover:hover {
-  color: #e63946;
-  transition: ease-in-out;
-  transition-delay: 0.35s;
-}

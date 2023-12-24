@@ -1,8 +1,32 @@
 .main-container {
   position: relative;
-  width: 100vw;
+  width: 86vw;
   height: 100%;
   background-color:	#F3F8FF;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 46px 0px;
+}
+
+#image-size {
+  height: 300px;
+  width: 300px;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  z-index: 10;
+}
+
+#gap-button {
+  margin-left: 15px;
 }
 
 .background-image {
@@ -11,4 +35,3 @@
   width: 100%;
   height: 138px;
 }
-

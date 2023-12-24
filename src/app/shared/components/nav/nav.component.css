@@ -1,10 +1,25 @@
 .navigation {
   position: relative;
-  width: 225px;
+  width: 14vw;
   height: 100vh;
   background-color: #3c4787;
-  color: white;
   margin: 0px;
   box-sizing: border-box;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+p {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.circle-login {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: aliceblue;
 }

@@ -6,10 +6,27 @@ html, body {
 body {
   margin: 0px;
   padding: 0px;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
   box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
   background-color: #FBF7F4;
   overflow: hidden;
+}
+
+h1 {
+  font-size: 38px !important;
+  font-weight: 400;
+  color:#33353d;
+}
+
+h2 {
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  color:#29B69D;
+}
+
+p {
+  margin-bottom: 8px !important;
+  color:#33353d;
 }
 
 .newBackground {
