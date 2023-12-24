@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MasterPageComponent } from './master-page/master-page.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 
@@ -18,7 +19,8 @@ import { NavigationMenuComponent } from './navigation-menu/navigation-menu.compo
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    MatTooltipModule
   ]
 })
 export class HomeModule { }
