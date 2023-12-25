@@ -10,6 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatButtonModule} from '@angular/material/button';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatTabsModule,
     MatSidenavModule,
     MatButtonModule,
+
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
   ],
   exports: [
     CommonModule,

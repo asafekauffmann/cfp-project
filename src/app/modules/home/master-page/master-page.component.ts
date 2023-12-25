@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 
-
 @Component({
   selector: 'app-master-page',
   templateUrl: './master-page.component.html',
@@ -8,11 +7,10 @@ import { Component } from '@angular/core';
 })
 export class MasterPageComponent {
 
-  constructor() {}
+  pageName: string = "Home"
 
-  ngOnInit() {
+  constructor() { }
 
-
-  }
+  ngOnInit() { }
 
 }

@@ -1,19 +1,10 @@
 <app-template-master>
-
   <div class="header-navigation">
-    <button mat-icon-button class="example-icon-clean" aria-label="Icon" routerLink="/home">
-      <mat-icon>home</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon-clean" aria-label="Icon">
-      <mat-icon>share</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon-clean" aria-label="Icon" routerLink="/" >
-      <mat-icon>logout</mat-icon>
-    </button>
+    <app-navigation-menu></app-navigation-menu>
   </div>
 
   <div class="nav-template">
-    <p id="p-nav">Navigation</p>
+    <p id="p-nav">{{pageName}}</p>
     <div class="circle-login"></div>
   </div>
 
@@ -22,14 +13,13 @@
   </div>
 
   <div class="main-footer">
-    <button mat-mini-fab class="new" id="gap-button" routerLink="/readme">
+    <button mat-mini-fab class="new-color" id="gap-button" routerLink="/readme" matTooltip="Info Read.me">
       <mat-icon><span class="material-symbols-outlined">
         settings
         </span></mat-icon>
     </button>
-    <button mat-fab extended color="primary" id="gap-button" >
+    <button mat-fab extended color="primary" id="gap-button" routerLink="/products" matTooltip="Create Product" >
       <mat-icon>add</mat-icon>Create
     </button>
   </div>
-
 </app-template-master>

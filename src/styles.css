@@ -32,3 +32,31 @@ p {
 .newBackground {
   background-color: #023047;
 }
+
+/* main */
+.main-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 26px 0px;
+}
+
+#gap-button {
+  margin-left: 15px;
+}
+
+/* nav */
+#p-nav {
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.circle-login {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+
