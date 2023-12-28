@@ -16,7 +16,7 @@ export class DetailsComponent implements OnInit {
     name: '',
     size: '',
     stock: 0,
-    created: '0',
+    created: '',
     color: '',
   }
 
@@ -46,7 +46,7 @@ export class DetailsComponent implements OnInit {
         name: '',
         size: '',
         stock: 0,
-        created: '0',
+        created: '',
         color: '',};
     })
   }
@@ -66,7 +66,7 @@ export class DetailsComponent implements OnInit {
         name: '',
         size: '',
         stock: 0,
-        created: '0',
+        created: '',
         color: '',};
     })
   }
