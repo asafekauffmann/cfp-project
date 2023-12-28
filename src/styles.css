@@ -60,3 +60,6 @@ p {
   background-color: aliceblue;
 }
 
+.mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: aliceblue !important;
+}
