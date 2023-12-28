@@ -1,13 +1,11 @@
 <mat-drawer-container class="example-container">
   <mat-drawer mode="side" opened class="example-drawer">
-
     <div class="mode">
       <mat-card class="example-card">
         <mat-card-header>
           <mat-card-title>Welcome</mat-card-title>
           <mat-card-subtitle>CFP Project</mat-card-subtitle>
         </mat-card-header>
-
         <mat-card-content>
           <div class="login">
             <div>
@@ -27,13 +25,11 @@
             <span>Login: <strong>user</strong>; Password: <strong>1234</strong>.</span>
           </div>
         </mat-card-content>
-
         <mat-card-actions>
           <button mat-fab extended color="primary" type="submit" (click)="onSubmit()" [disabled]="loginForm.invalid">
-            Log In<!-- routerLink="/home" -->
+            Log In
           </button>
         </mat-card-actions>
-
       </mat-card>
     </div>
   </mat-drawer>
@@ -42,8 +38,8 @@
     <div class="welcome-login">
       <img class="image-size" [src]="urlImage" alt="image"/>
       <h1 id="color-get">Get In Touch</h1>
-      <p>CRUD Software for Developers</p>
-      <p>Repository available on GitHub.</p>
+      <p>CRUD Software for Developers, Repository available on GitHub.</p>
+      <p>Developer Asafe Kauffmann</p>
     </div>
   </mat-drawer-content>
 </mat-drawer-container>
