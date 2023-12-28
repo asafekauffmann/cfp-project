@@ -5,3 +5,23 @@
 .new-color {
   background-color:#29B69D;
 }
+
+.nav-menu-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35px;
+}
+
+p {
+  color: white;
+  font-weight: 500;
+}
+
+p:hover {
+  color: #29B69D;
+}
+
+a {
+  text-decoration: none;
+}

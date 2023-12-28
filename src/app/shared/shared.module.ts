@@ -28,7 +28,6 @@ import { HttpClientModule } from '@angular/common/http';
     MatTabsModule,
     MatSidenavModule,
     MatButtonModule,
-
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
@@ -45,7 +44,6 @@ import { HttpClientModule } from '@angular/common/http';
     MatTabsModule,
     MatSidenavModule,
     MatButtonModule,
-
    ],
    schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })

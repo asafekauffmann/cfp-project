@@ -32,12 +32,12 @@ export class LoginComponent implements OnInit {
       const username = this.loginForm.value.username;
       const password = this.loginForm.value.password;
 
-      if (username === "user" && password === "1234") {
+      if (username === "user"  && password === "1234") {
         this.router.navigateByUrl('/home')
         console.log('Auth log In succeess!');
         alert("Log In success")
-
-      } else {
+      }
+      else {
         console.log('Falha na autenticação. Verifique suas credenciais.');
         alert("User or Password incorrert")
       }

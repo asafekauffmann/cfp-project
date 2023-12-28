@@ -4,25 +4,21 @@
       <ng-content select=".header-navigation"></ng-content>
     </div>
   </app-header>
-
   <div class="container-flex">
     <app-nav>
       <div class="nav-navigation">
         <ng-content select=".nav-template"></ng-content>
       </div>
     </app-nav>
-
     <app-main>
       <div class="content">
         <ng-content select=".main-template"></ng-content>
       </div>
-
       <div class="footer">
         <ng-content select=".main-footer"></ng-content>
       </div>
     </app-main>
   </div>
-
 </div>
 
 

@@ -57,5 +57,4 @@ private storage: Storage;
     return false;
   }
 
-
 }

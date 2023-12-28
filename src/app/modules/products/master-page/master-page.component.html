@@ -6,6 +6,20 @@
   <div class="nav-template">
     <p id="p-nav">{{pageName}}</p>
     <div class="circle-login"></div>
+
+    <div class="nav-menu-style">
+      <a routerLink="/home">
+        <p>Home</p>
+      </a>
+
+      <a routerLink="/products">
+        <p>Products</p>
+      </a>
+
+      <a routerLink="/readme">
+        <p>READ.ME</p>
+      </a>
+    </div>
   </div>
 
   <div class="main-template">
@@ -17,9 +31,6 @@
       <mat-icon><span class="material-symbols-outlined">
         settings
         </span></mat-icon>
-    </button>
-    <button mat-fab extended color="primary" id="gap-button" routerLink="/products" matTooltip="Create Product" >
-      <mat-icon>add</mat-icon>Create
     </button>
   </div>
 </app-template-master>

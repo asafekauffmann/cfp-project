@@ -4,9 +4,37 @@
   justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .example-input {
   padding-left: 15px;
+}
+
+#gap-button-add {
+  margin-left: 50px;
+}
+
+thead {
+  color: #525562;
+}
+
+.table {
+  width: 100%;
+}
+
+.align-bottom {
+  margin-bottom: 16px;
+}
+
+.new-color {
+  background-color:#29B69D;
+}
+
+.table {
+  padding: 30px;
+  width: 93%;
+}
+
+td {
+  width: 150px;
 }

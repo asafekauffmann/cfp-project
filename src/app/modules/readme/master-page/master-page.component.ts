@@ -13,6 +13,4 @@ export class MasterPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-
 }

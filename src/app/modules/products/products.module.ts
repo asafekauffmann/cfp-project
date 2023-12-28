@@ -11,7 +11,9 @@ import {MatInputModule} from '@angular/material/input';
 import { DetailsComponent } from './pages/details/details.component';
 import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
-
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatPaginatorModule } from '@angular/material/paginator'
 
 
 
@@ -28,9 +30,13 @@ import { MatCardModule } from '@angular/material/card';
     SharedModule,
     FormsModule,
 
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule,
+    MatSortModule,
     MatTooltipModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
 
   ]
 })

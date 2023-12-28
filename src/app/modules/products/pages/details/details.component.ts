@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../product.model';
 import { ProductService } from '../../service/product.service';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-details',
@@ -10,8 +9,8 @@ import { Router } from '@angular/router';
 })
 export class DetailsComponent implements OnInit {
 
+  displayedColumns = ['name', 'size', 'stock', 'created', 'color', 'edit', 'delete']
   products: Product[] = [];
-
   product: Product = {
     name: '',
     size: '',
@@ -20,7 +19,9 @@ export class DetailsComponent implements OnInit {
     color: '',
   }
 
-  constructor(private productService: ProductService) { }
+  constructor(
+    private productService: ProductService
+    ) { }
 
   ngOnInit(): void {
     this.productService.getAll().subscribe((data) =>  {
@@ -72,7 +73,7 @@ export class DetailsComponent implements OnInit {
   }
 
   removeProduct(id: number): void {
-    const ok = confirm("Deseja realmente excluir ?");
+    const ok = confirm("Do you really want to delete?");
     if (ok) {
       this.productService.delete(id).subscribe((data) =>  {
         this.productService.getAll().subscribe((data) =>  {

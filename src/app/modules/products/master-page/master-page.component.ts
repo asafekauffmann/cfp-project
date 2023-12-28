@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-master-page',
@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MasterPageComponent implements OnInit {
 
+ /*  @ViewChild */
   pageName:string = "Products"
+ /*  dataSource: DataTableDataSource; */
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    /* this.dataSource = new DataTableDataSource(this.paginator, this.sort); */
+  }
 
 }

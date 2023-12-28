@@ -13,40 +13,37 @@
             <div>
               <img class="logo-size" [src]="urlImageIcon" alt="logo"/>
             </div>
-
             <form class="example-form" [formGroup]="loginForm" >
               <mat-form-field class="example-full-width">
                 <mat-label>Name User</mat-label>
                 <input matInput placeholder="adm or user" type="text" formControlName="username" >
               </mat-form-field>
-
               <mat-form-field class="example-full-width">
                 <mat-label>Password</mat-label>
                 <input matInput type="password" formControlName="password">
               </mat-form-field>
             </form>
-
-            <p>Make login Dashboard</p>
+            <span>Make login Dashboard</span>
+            <span>Login: <strong>user</strong>; Password: <strong>1234</strong>.</span>
           </div>
         </mat-card-content>
 
         <mat-card-actions>
-          <!-- <button mat-button>LIKE</button> -->
-
           <button mat-fab extended color="primary" type="submit" (click)="onSubmit()" [disabled]="loginForm.invalid">
             Log In<!-- routerLink="/home" -->
           </button>
         </mat-card-actions>
-      </mat-card>
 
+      </mat-card>
     </div>
   </mat-drawer>
-
 
   <mat-drawer-content class="example-content">
     <div class="welcome-login">
       <img class="image-size" [src]="urlImage" alt="image"/>
       <h1 id="color-get">Get In Touch</h1>
+      <p>CRUD Software for Developers</p>
+      <p>Repository available on GitHub.</p>
     </div>
   </mat-drawer-content>
 </mat-drawer-container>

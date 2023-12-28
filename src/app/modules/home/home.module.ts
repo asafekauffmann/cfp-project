@@ -9,7 +9,6 @@ import { NavigationMenuComponent } from './navigation-menu/navigation-menu.compo
 import {MatTooltipModule} from '@angular/material/tooltip';
 
 
-
 @NgModule({
   declarations: [
     HomeComponent,
