@@ -6,13 +6,22 @@
   flex-wrap: wrap;
 }
 
-.example-input {
-  padding-left: 15px;
+.form-module {
+  width: 700px;
 }
 
-#gap-button-add {
-  margin-left: 50px;
+.padding-field {
+  padding: 0 6px;
 }
+
+button {
+  width: 150px;
+}
+
+.align-bottom {
+  margin: 0px 26px;
+}
+
 
 thead {
   color: #525562;
@@ -20,19 +29,14 @@ thead {
 
 .table {
   width: 100%;
+  padding: 30px;
 }
 
-.align-bottom {
-  margin-bottom: 16px;
-}
+
+
 
 .new-color {
   background-color:#29B69D;
-}
-
-.table {
-  padding: 30px;
-  width: 93%;
 }
 
 td {
