@@ -1,38 +1,14 @@
-.main-template {
-  display: block;
-}
-
 .new-color {
   background-color:#29B69D;
-}
-
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.navigation-component {
-  display: flex;
-  width: 185px;
-}
-
-.nav-menu {
-  padding-top: 25px;
-  width: 100%;
 }
 
 p {
   color: white;
   font-weight: 400;
-  padding: 6px ;
+  padding: 6px;
 }
 
 p:hover {
   color: #29B69D;
   background-color: #363f79;
-}
-
-a {
-  text-decoration: none;
 }
