@@ -1,3 +1,9 @@
+.container-products {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
 .example-form {
   display: flex;
   align-items: center;
@@ -6,12 +12,15 @@
   flex-wrap: wrap;
 }
 
+mat-form-field {
+  width: 200px;
+}
 .form-module {
-  width: 700px;
+  width: full;
 }
 
 .padding-field {
-  padding: 0 6px;
+  padding-right: 8px;
 }
 
 button {
@@ -19,24 +28,24 @@ button {
 }
 
 .align-bottom {
-  margin: 0px 26px;
+  margin: 0px 38px;
 }
 
+.new-color {
+  background-color:#29B69D;
+}
 
-thead {
-  color: #525562;
+.title-table-result {
+  padding-top: 26px;
 }
 
 .table {
   width: 100%;
-  padding: 30px;
+  padding: 30px 0px;
 }
 
-
-
-
-.new-color {
-  background-color:#29B69D;
+thead, p {
+  color: #525562;
 }
 
 td {
