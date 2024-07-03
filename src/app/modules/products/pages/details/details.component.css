@@ -31,10 +31,6 @@ button {
   margin: 0px 38px;
 }
 
-.new-color {
-  background-color:#29B69D;
-}
-
 .title-table-result {
   padding-top: 26px;
 }
@@ -42,6 +38,7 @@ button {
 .table {
   width: 100%;
   padding: 30px 0px;
+  text-align: left;
 }
 
 thead, p {
@@ -50,4 +47,13 @@ thead, p {
 
 td {
   width: 150px;
+  padding-top: 12px;
+}
+
+.new-color {
+  background-color:#29B69D;
+}
+
+.button-size {
+  width: 45px;
 }
