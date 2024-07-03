@@ -64,13 +64,13 @@
         <td>{{ product.created }}</td>
         <td>{{ product.color }}</td>
         <td>
-          <button mat-mini-fab class="new-color" matTooltip="edit" (click)="setProduct(product)">
+          <button mat-mini-fab class="new-color button-size" matTooltip="edit" (click)="setProduct(product)">
             <mat-icon>edit</mat-icon>
           </button>
         </td>
   
         <td>
-          <button mat-mini-fab matTooltip="delete" (click)="removeProduct(product.id!)">
+          <button mat-mini-fab matTooltip="delete" class="button-size" (click)="removeProduct(product.id!)">
             <mat-icon>delete</mat-icon>
           </button>
         </td>
